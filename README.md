@@ -9,7 +9,7 @@ How to use
 
 Following Operations are supported :
 ===================================
-> - Create Resume
+> - Create Interview Experience
       POST 
       Sample PayLoad /Request body
       
@@ -42,16 +42,16 @@ Following Operations are supported :
 End Point : http://localhost:8080/v1/api/interviewExperience (When running on the local system)
 
 
-> - Get Resume
+> - Get Interview Experience
     GET request
     End Point1 : http://localhost:8080/v1/api/interviewExperience/{id}
     End Point2 : http://localhost:8080/v1/api/interviewExperience
 
-> - Delete Resume
+> - Delete Interview Experience
     DELETE request
     End Point : http://localhost:8080/v1/api/interviewExperience/{id}
     
-> - Update Resume
+> - Update Interview Experience
     PUT request
     End Point : http://localhost:8080/v1/api/interviewExperience/{id}
     PayLoad will be same as that of the POST request
